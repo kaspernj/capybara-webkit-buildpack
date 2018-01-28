@@ -11,5 +11,5 @@ BUILD_DIR=$1
 CACHE_DIR=$2
 
 echo "-----> Exporting QMAKE"
-export QMAKE="$BUILD_DIR/.apt/usr/bin/qmake-qt5"
+export QMAKE="$BUILD_DIR/.apt/usr/bin/qmake"
 echo "-----> QMAKE=$QMAKE"
