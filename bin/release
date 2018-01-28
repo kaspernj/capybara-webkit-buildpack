@@ -6,7 +6,7 @@ INCLUDE_PATH = "#{BUILD_DIR}/.apt/usr/include:#{ENV['INCLUDE_PATH']}:#{BUILD_DIR
 require 'yaml'
 puts({
   'config_vars' => {
-    'QMAKE' => "#{BUILD_DIR}/.apt/usr/bin/qmake-qt5",
+    'QMAKE' => "#{BUILD_DIR}/.apt/usr/bin/qmake",
     'QTLIB' => "#{BUILD_DIR}/.apt/usr/share/qt5/",
     'SPEC' => "#{BUILD_DIR}/.apt/usr/share/qt5/mkspecs/linux-g++",
     'PATH' => "#{BUILD_DIR}/.apt/usr/share/qt5/mkspecs/:#{BUILD_DIR}/.apt/usr/bin:#{ENV['PATH']}",
