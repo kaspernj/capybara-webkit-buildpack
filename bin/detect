@@ -10,7 +10,7 @@ set -e
 BUILD_DIR=$1
 CACHE_DIR=$2
 
-if [ -f $BUILD_DIR/.apt/usr/bin/qmake-qt5 ]; then
+if [ -f $BUILD_DIR/.apt/usr/bin/qmake ]; then
   echo "qt buildpack ENV"
   exit 0
 else
